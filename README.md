@@ -1,6 +1,8 @@
 # Your First DJ Mix
 
-A nine-slide Slidev introduction for ages 8–16 with no DJ experience. The talk and live demos total **10 minutes**; any hands-on practice is additional.
+A Slidev introduction for ages 8–16 with no DJ experience. The talk and live demos total **10 minutes**; any hands-on practice is additional.
+
+View the slides: https://gvpproj.github.io/DJ-Workshop-Slides/
 
 ## Run
 
@@ -17,6 +19,8 @@ Slidev prints the local URL. Open presenter mode from its toolbar to see the tea
 pnpm build       # static site in dist/
 pnpm preview     # preview the built site
 ```
+
+Pushes to `main` build and deploy the slides to GitHub Pages via `.github/workflows/pages.yml`.
 
 ## Edit
 
