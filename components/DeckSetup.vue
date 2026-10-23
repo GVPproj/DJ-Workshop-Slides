@@ -1,17 +1,32 @@
 <script setup lang="ts">
+import { useSlideContext } from '@slidev/client'
+import { computed } from 'vue'
+
 withDefaults(defineProps<{
-  mode?: 'overview' | 'preview' | 'mix'
+  mode?: 'overview' | 'preview' | 'mix' | 'transition'
 }>(), {
   mode: 'overview',
 })
+
+const { $slidev, $page } = useSlideContext()
+const isActive = computed(() => $slidev.nav.currentPage === $page.value)
 </script>
 
 <template>
-  <div class="deck-setup" :class="`deck-setup--${mode}`" aria-label="Simplified two-deck DJ setup, not an exact software screenshot">
+  <div class="deck-setup" :class="[`deck-setup--${mode}`, { 'deck-setup--animating': mode === 'transition' && isActive }]" aria-label="Simplified two-deck DJ setup, not an exact software screenshot">
     <div class="deck-card deck-card--a deck-card--audible">
-      <div class="deck-heading"><span>DECK A</span><span class="track-badge">PLAYING</span></div>
+      <div class="deck-heading">
+        <span>DECK A</span>
+        <span class="track-badge">
+          <span class="deck-track--before">PLAYING</span>
+          <span v-if="mode === 'transition'" class="deck-track--after">UP NEXT</span>
+        </span>
+      </div>
       <div class="record"><span>A</span></div>
-      <div class="deck-track">NOW PLAYING</div>
+      <div class="deck-track">
+        <span class="deck-track--before">NOW PLAYING</span>
+        <span v-if="mode === 'transition'" class="deck-track--after">FIND NEW TRACK</span>
+      </div>
       <div class="waveform" aria-hidden="true"></div>
       <div class="deck-buttons"><span>▶ / Ⅱ</span></div>
     </div>
@@ -33,9 +48,18 @@ withDefaults(defineProps<{
       </div>
     </div>
     <div class="deck-card deck-card--b" :class="{ 'deck-card--audible': mode === 'mix' }">
-      <div class="deck-heading"><span>DECK B</span><span class="track-badge">{{ mode === 'mix' ? 'PLAYING' : 'UP NEXT' }}</span></div>
+      <div class="deck-heading">
+        <span>DECK B</span>
+        <span class="track-badge">
+          <span class="deck-track--before">{{ mode === 'mix' ? 'PLAYING' : 'UP NEXT' }}</span>
+          <span v-if="mode === 'transition'" class="deck-track--after">PLAYING</span>
+        </span>
+      </div>
       <div class="record"><span>B</span></div>
-      <div class="deck-track">UP NEXT</div>
+      <div class="deck-track">
+        <span class="deck-track--before">UP NEXT</span>
+        <span v-if="mode === 'transition'" class="deck-track--after">NOW PLAYING</span>
+      </div>
       <div class="waveform" aria-hidden="true"></div>
       <div class="deck-buttons"><span>▶ / Ⅱ</span></div>
     </div>

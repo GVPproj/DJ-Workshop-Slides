@@ -3,7 +3,7 @@ theme: default
 title: Your First DJ Mix
 info: |
   A ten-minute introduction to DJing for ages 8–16.
-  Nine slides, live demonstrations, and a first-transition challenge.
+  Ten slides, live demonstrations, and a first-transition challenge.
 author: DJ Workshop
 class: workshop-slide wordmark-slide
 transition: fade
@@ -87,7 +87,7 @@ title: Meet your decks.
 
 
 <div class="slide-footer"><span>First Glimpse</span>
-  <span>05 / 09</span></div>
+  <span>05 / 10</span></div>
 
 <!--
 TIME: 2 minutes. Total elapsed: 3:00.
@@ -133,7 +133,7 @@ title: Find the beat.
   <!-- <div><span class="tag tag--pink">VOLUME</span><p>How loud the sound is.</p></div> -->
 </div>
 
-<div class="slide-footer"><span>TRY IT: TAP, NOD, OR COUNT ALONG</span><span>06 / 09</span></div>
+<div class="slide-footer"><span>TRY IT: TAP, NOD, OR COUNT ALONG</span><span>06 / 10</span></div>
 
 <!--
 TIME: 1 minute. Total elapsed: 4:00.
@@ -161,7 +161,7 @@ title: Listen before everyone else.
 
 <div class="listen-callout"><span class="tag">HEADPHONE CUE</span> Check the next track before you mix it in.</div>
 
-<div class="slide-footer"><span></span><span>07 / 09</span></div>
+<div class="slide-footer"><span></span><span>07 / 10</span></div>
 
 <!--
 TIME: 1 minute. Total elapsed: 5:00.
@@ -180,10 +180,23 @@ With one controller, the room won't hear B during this demonstration. Invite one
 
 ---
 class: workshop-slide
+title: Crossfade from A to B.
+---
+
+<div class="eyebrow">04 · USING THE CROSSFADER</div>
+
+# Crossfade from A to B.
+
+<DeckSetup mode="transition" />
+
+<div class="slide-footer"><span></span><span>08 / 10</span></div>
+
+---
+class: workshop-slide
 title: Make your first transition.
 ---
 
-<div class="eyebrow">04 · LET’S CONNECT TWO TRACKS</div>
+<div class="eyebrow">05 · LET’S CONNECT TWO TRACKS</div>
 
 # Make your first transition.
 
@@ -196,7 +209,7 @@ title: Make your first transition.
 
 <div class="listen-callout"><span class="tag">USE YOUR EARS</span> Does the change feel smooth? Adjust and try again.</div>
 
-<div class="slide-footer"><span>WATCH ONCE · THEN HELP ME DO IT AGAIN</span><span>08 / 09</span></div>
+<div class="slide-footer"><span>WATCH ONCE · THEN HELP ME DO IT AGAIN</span><span>09 / 10</span></div>
 
 <!--
 TIME: 4 minutes. Total elapsed: 9:00.
@@ -222,7 +235,7 @@ class: workshop-slide
 title: Your turn.
 ---
 
-<div class="eyebrow">05 · YOU’RE THE DJ</div>
+<div class="eyebrow">06 · YOU’RE THE DJ</div>
 
 # Your turn.
 
@@ -244,7 +257,7 @@ title: Your turn.
 
 <div class="success-line">A first attempt counts. Perfect isn’t the goal.</div>
 
-<div class="slide-footer"><span>TAKE TURNS: DJ · HEADPHONE LISTENER · OBSERVER</span><span>09 / 09</span></div>
+<div class="slide-footer"><span>TAKE TURNS: DJ · HEADPHONE LISTENER · OBSERVER</span><span>10 / 10</span></div>
 
 <!--
 TIME: 1 minute. Total elapsed: 10:00. Hands-on practice, if available, is separate from the ten-minute talk.
