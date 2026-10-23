@@ -81,18 +81,13 @@ title: Meet your decks.
 
 <div class="eyebrow">01 · TWO TRACKS, TWO DECKS</div>
 
-# Meet your decks.
+# 2 Decks and a Mixer.
 
 <DeckSetup />
 
-<div class="control-key">
-  <span><b>Load</b> · choose a track</span>
-  <span><b>Play / Pause</b> · start or stop</span>
-  <span><b>Sync</b> · match the beat speeds*</span>
-</div>
-<p class="small-note">The crossfader blends A and B. *Sync helps; your ears still decide.</p>
 
-<div class="slide-footer"><span>SIMPLIFIED DIAGRAM · FIND THESE CONTROLS IN DJAY</span><span>05 / 09</span></div>
+<div class="slide-footer"><span>First Glimpse</span>
+  <span>05 / 09</span></div>
 
 <!--
 TIME: 2 minutes. Total elapsed: 3:00.
@@ -120,9 +115,9 @@ class: workshop-slide
 title: Find the beat.
 ---
 
-<div class="eyebrow">02 · LISTEN FIRST</div>
+<div class="eyebrow">02 · FINDING TEMPO</div>
 
-# Find the beat.
+# Find the beat and the '1'.
 
 <p class="lead">The beat is the steady pulse you can tap along to.</p>
 
@@ -135,7 +130,7 @@ title: Find the beat.
 
 <div class="concept-pair">
   <div><span class="tag">TEMPO / BPM</span><p>How fast the beat goes.</p></div>
-  <div><span class="tag tag--pink">VOLUME</span><p>How loud the sound is.</p></div>
+  <!-- <div><span class="tag tag--pink">VOLUME</span><p>How loud the sound is.</p></div> -->
 </div>
 
 <div class="slide-footer"><span>TRY IT: TAP, NOD, OR COUNT ALONG</span><span>06 / 09</span></div>
@@ -157,17 +152,16 @@ class: workshop-slide
 title: Listen before everyone else.
 ---
 
-<div class="eyebrow">03 · YOUR SECRET LISTEN</div>
+<div class="eyebrow">03 · USING YOUR HEADPHONES</div>
 
-# Listen before everyone else.
+# Listen to next track.
 
-<p class="lead">The room hears A. Your headphones can preview B.</p>
 
 <DeckSetup mode="preview" />
 
 <div class="listen-callout"><span class="tag">HEADPHONE CUE</span> Check the next track before you mix it in.</div>
 
-<div class="slide-footer"><span>START QUIET · KEEP LISTENING COMFORTABLE</span><span>07 / 09</span></div>
+<div class="slide-footer"><span></span><span>07 / 09</span></div>
 
 <!--
 TIME: 1 minute. Total elapsed: 5:00.
