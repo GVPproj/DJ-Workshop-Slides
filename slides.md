@@ -209,7 +209,7 @@ title: Make your first transition.
 
 <div class="listen-callout"><span class="tag">USE YOUR EARS</span> Does the change sound smooth? Adjust and try again.</div>
 
-<div class="slide-footer"><span>Try as many times as you need</span><span>09 / 10</span></div>
+<div class="slide-footer"><span></span><span>09 / 10</span></div>
 
 <!--
 TIME: 4 minutes. Total elapsed: 9:00.
