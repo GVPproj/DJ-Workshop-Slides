@@ -3,7 +3,7 @@ theme: default
 title: Your First DJ Mix
 info: |
   A ten-minute introduction to DJing for ages 8–16.
-  Ten slides, live demonstrations, and a first-transition challenge.
+  Twelve slides, live demonstrations, and a first-transition challenge.
 author: DJ Workshop
 class: workshop-slide wordmark-slide
 transition: fade
@@ -87,7 +87,7 @@ title: Meet your decks.
 
 
 <div class="slide-footer"><span>First Glimpse</span>
-  <span>05 / 10</span></div>
+  <span>05 / 12</span></div>
 
 <!--
 TIME: 2 minutes. Total elapsed: 3:00.
@@ -112,10 +112,29 @@ SCREENSHOT PLACEHOLDER: If useful, replace this diagram with a labelled screensh
 
 ---
 class: workshop-slide
+title: Crossfade without beat matching.
+---
+
+<div class="eyebrow">02 · USING THE CROSSFADER</div>
+
+# Crossfade from A to B.
+
+<DeckSetup mode="transition" />
+
+<div class="slide-footer"><span>NO BEAT MATCHING NEEDED</span><span>06 / 12</span></div>
+
+<!--
+DEMO: After introducing the decks, show a simple crossfade before explaining tempo. Play A to the room with the crossfader at A. Start B at a prepared, beat-light intro while A reaches a sparse outro, then move the crossfader toward B. Keep any overlap short so the beats do not clash. Do not use Sync or try to align the beats in this demonstration.
+
+SAY: “You can move from one song to another without matching their beats. Listen for a good moment to make the switch.” This is a short demonstration within the deck-introduction time, not an extra timed section.
+-->
+
+---
+class: workshop-slide
 title: Find the beat.
 ---
 
-<div class="eyebrow">02 · FINDING TEMPO</div>
+<div class="eyebrow">03 · FINDING TEMPO</div>
 
 # Find the beat and the '1'.
 
@@ -133,7 +152,7 @@ title: Find the beat.
   <!-- <div><span class="tag tag--pink">VOLUME</span><p>How loud the sound is.</p></div> -->
 </div>
 
-<div class="slide-footer"><span>TRY IT: TAP, NOD, OR COUNT ALONG</span><span>06 / 10</span></div>
+<div class="slide-footer"><span>TRY IT: TAP, NOD, OR COUNT ALONG</span><span>07 / 12</span></div>
 
 <!--
 TIME: 1 minute. Total elapsed: 4:00.
@@ -152,7 +171,7 @@ class: workshop-slide
 title: Listen before everyone else.
 ---
 
-<div class="eyebrow">03 · USING YOUR HEADPHONES</div>
+<div class="eyebrow">04 · USING YOUR HEADPHONES</div>
 
 # Listen to next track.
 
@@ -161,7 +180,7 @@ title: Listen before everyone else.
 
 <div class="listen-callout"><span class="tag">HEADPHONE CUE</span> Check the next track before you mix it in.</div>
 
-<div class="slide-footer"><span></span><span>07 / 10</span></div>
+<div class="slide-footer"><span></span><span>08 / 12</span></div>
 
 <!--
 TIME: 1 minute. Total elapsed: 5:00.
@@ -183,20 +202,20 @@ class: workshop-slide
 title: Crossfade from A to B.
 ---
 
-<div class="eyebrow">04 · USING THE CROSSFADER</div>
+<div class="eyebrow">05 · USING THE CROSSFADER</div>
 
 # Crossfade from A to B.
 
-<DeckSetup mode="transition" />
+<DeckSetup mode="transition" show-beats />
 
-<div class="slide-footer"><span></span><span>08 / 10</span></div>
+<div class="slide-footer"><span></span><span>09 / 12</span></div>
 
 ---
 class: workshop-slide
 title: Make your first transition.
 ---
 
-<div class="eyebrow">05 · LET’S MIX TWO SONGS</div>
+<div class="eyebrow">06 · LET’S MIX TWO SONGS</div>
 
 # Make your first transition.
 
@@ -209,7 +228,7 @@ title: Make your first transition.
 
 <div class="listen-callout"><span class="tag">USE YOUR EARS</span> Does the change sound smooth? Adjust and try again.</div>
 
-<div class="slide-footer"><span></span><span>09 / 10</span></div>
+<div class="slide-footer"><span></span><span>10 / 12</span></div>
 
 <!--
 TIME: 4 minutes. Total elapsed: 9:00.
@@ -237,3 +256,30 @@ title: DJ workshop outro
 
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWZ3M3dyNTF2dGp4ZmhpcDEzbTBzZDZvbzd6bDYwdXBzeWNkNTNldCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mDGL3G97HPIh3X7OXe/giphy.gif" alt="Animated GIF on the left" />
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWQzem9nc2MzZTVya2pvYnN0bjB3eWUxeGJyZ2FrOWNuZ2EydzZqZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f0AsTRFUf4L1I0NPrw/giphy.gif" alt="Animated GIF on the right" />
+
+---
+class: workshop-slide software-slide
+title: DJ software options
+---
+
+# DJ software
+
+<div class="software-choices">
+  <section class="software-category software-category--free" aria-label="Free DJ software">
+    <h2>Free</h2>
+    <div class="software-logos">
+      <figure class="software-logo software-logo--byo"><img src="/logos/mixxx.svg" alt="Mixxx logo" /><figcaption>Mixxx</figcaption><span class="software-controller-tag">BYO controller</span></figure>
+    </div>
+  </section>
+  <section class="software-category" aria-label="Paid DJ software">
+    <h2>Paid</h2>
+    <div class="software-logos">
+      <figure class="software-logo software-logo--byo"><img src="/logos/djay.svg" alt="Algoriddim djay logo" /><figcaption>Algoriddim djay</figcaption><span class="software-controller-tag">BYO controller</span></figure>
+      <figure class="software-logo"><img src="/logos/serato.svg" alt="Serato logo" /></figure>
+      <figure class="software-logo"><img src="/logos/rekordbox.svg" alt="rekordbox logo" /></figure>
+      <figure class="software-logo"><img src="/logos/traktor.svg" alt="Traktor logo" /></figure>
+    </div>
+  </section>
+</div>
+
+<div class="slide-footer"><span></span><span>12 / 12</span></div>

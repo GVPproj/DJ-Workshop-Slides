@@ -5,9 +5,11 @@ import { computed } from "vue";
 withDefaults(
   defineProps<{
     mode?: "overview" | "preview" | "mix" | "transition";
+    showBeats?: boolean;
   }>(),
   {
     mode: "overview",
+    showBeats: false,
   },
 );
 
@@ -20,7 +22,10 @@ const isActive = computed(() => $slidev.nav.currentPage === $page.value);
     class="deck-setup"
     :class="[
       `deck-setup--${mode}`,
-      { 'deck-setup--animating': mode === 'transition' && isActive },
+      {
+        'deck-setup--active': isActive,
+        'deck-setup--animating': mode === 'transition' && isActive,
+      },
     ]"
     aria-label="Simplified two-deck DJ setup, not an exact software screenshot"
   >
@@ -103,8 +108,85 @@ const isActive = computed(() => $slidev.nav.currentPage === $page.value);
       <div class="waveform" aria-hidden="true"></div>
       <div class="deck-buttons"><span>▶ / Ⅱ</span></div>
     </div>
+    <div v-if="showBeats" class="deck-beats deck-beats--a" role="img" aria-label="Deck A: beats 1, 2, 3, 4 in time with Deck B">
+      <span v-for="beat in 4" :key="beat" aria-hidden="true">{{ beat }}</span>
+    </div>
+    <div v-if="showBeats" class="deck-beats deck-beats--b" role="img" aria-label="Deck B: beats 1, 2, 3, 4 in time with Deck A">
+      <span v-for="beat in 4" :key="beat" aria-hidden="true">{{ beat }}</span>
+    </div>
     <div v-if="mode === 'preview'" class="headphone-route">
       HEADPHONES: Listen to B privately, find the TEMPO and the 1 using CUE
     </div>
   </div>
 </template>
+
+<style scoped>
+.deck-beats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  grid-row: 2;
+  margin-top: 4px;
+}
+
+.deck-beats--a { grid-column: 1; }
+.deck-beats--b { grid-column: 3; }
+
+.deck-beats span {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 2px solid var(--workshop-cyan);
+  border-radius: 50%;
+  background: var(--workshop-panel);
+  color: var(--workshop-cyan);
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.deck-beats span:first-child {
+  background: var(--workshop-cyan);
+  color: var(--workshop-bg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .deck-setup--active .deck-beats span {
+    animation: count-beat 2s step-end infinite both;
+  }
+
+  .deck-setup--active .deck-beats span:nth-child(2) { animation-delay: -1.5s; }
+  .deck-setup--active .deck-beats span:nth-child(3) { animation-delay: -1s; }
+  .deck-setup--active .deck-beats span:nth-child(4) { animation-delay: -0.5s; }
+
+  .deck-setup--active .waveform {
+    animation:
+      waveform-scroll 2s linear infinite,
+      waveform-pulse 1s ease-in-out infinite alternate;
+  }
+
+  .deck-card--b .waveform {
+    animation-delay: -0.7s, -0.4s;
+  }
+}
+
+@keyframes count-beat {
+  0%, 24.99% { background: var(--workshop-cyan); color: var(--workshop-bg); }
+  25%, 100% { background: var(--workshop-panel); color: var(--workshop-cyan); }
+}
+
+@keyframes waveform-scroll {
+  to {
+    background-position: -28px 0;
+  }
+}
+
+@keyframes waveform-pulse {
+  from {
+    transform: scaleY(0.8);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+</style>
