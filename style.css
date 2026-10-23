@@ -81,6 +81,11 @@
   object-fit: contain;
 }
 
+.gif-pair-slide img {
+  height: 66%;
+  align-self: center;
+}
+
 .wordmark-slide .wordmark {
   display: block;
   width: 100%;

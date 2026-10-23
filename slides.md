@@ -129,7 +129,7 @@ title: Find the beat.
 </div>
 
 <div class="concept-pair">
-  <div><span class="tag">TEMPO / BPM</span><p>How fast the beat goes.</p></div>
+  <div><span class="tag">TEMPO / BPM</span><p>How fast the beat goes. (Beats Per Minute)</p></div>
   <!-- <div><span class="tag tag--pink">VOLUME</span><p>How loud the sound is.</p></div> -->
 </div>
 
@@ -196,20 +196,20 @@ class: workshop-slide
 title: Make your first transition.
 ---
 
-<div class="eyebrow">05 · LET’S CONNECT TWO TRACKS</div>
+<div class="eyebrow">05 · LET’S MIX TWO SONGS</div>
 
 # Make your first transition.
 
 <div class="transition-grid">
-  <div class="step"><span class="step-number">1</span><div><h3>Load B</h3><p>Keep A playing to the room.</p></div></div>
-  <div class="step"><span class="step-number">2</span><div><h3>Sync + preview</h3><p>Match speeds. Listen in headphones.</p></div></div>
-  <div class="step"><span class="step-number">3</span><div><h3>Start on a beat</h3><p>Reset B, then press Play with A’s beat.</p></div></div>
+  <div class="step"><span class="step-number">1</span><div><h3>Choose Track B</h3><p>Track A is playing to the crowd.</p></div></div>
+  <div class="step"><span class="step-number">2</span><div><h3>Preview Tempo + Find a '1'</h3><p>Listen to 'B' in headphones.</p></div></div>
+  <div class="step"><span class="step-number">3</span><div><h3>Start on a 1</h3><p>Stop B, find '1', Play on A’s '1'.</p></div></div>
   <div class="step"><span class="step-number">4</span><div><h3>Blend across</h3><p>Move the crossfader slowly from A to B.</p></div></div>
 </div>
 
-<div class="listen-callout"><span class="tag">USE YOUR EARS</span> Does the change feel smooth? Adjust and try again.</div>
+<div class="listen-callout"><span class="tag">USE YOUR EARS</span> Does the change sound smooth? Adjust and try again.</div>
 
-<div class="slide-footer"><span>WATCH ONCE · THEN HELP ME DO IT AGAIN</span><span>09 / 10</span></div>
+<div class="slide-footer"><span>Try as many times as you need</span><span>09 / 10</span></div>
 
 <!--
 TIME: 4 minutes. Total elapsed: 9:00.
@@ -231,49 +231,9 @@ Do not promise that Sync makes all tracks fit. Genre, rhythm, vocals, musical ke
 -->
 
 ---
-class: workshop-slide
-title: Your turn.
+class: workshop-slide photo-pair-slide gif-pair-slide
+title: DJ workshop outro
 ---
 
-<div class="eyebrow">06 · YOU’RE THE DJ</div>
-
-# Your turn.
-
-<p class="lead">Connect two tracks. Listen. Try again.</p>
-
-<div class="practice-grid">
-  <div class="practice-checklist">
-    <div><span>01</span> A is playing. Load B.</div>
-    <div><span>02</span> Sync and preview B quietly.</div>
-    <div><span>03</span> Reset B. Start it on a beat.</div>
-    <div><span>04</span> Fade across. Stop A afterward.</div>
-  </div>
-  <div class="challenge-card">
-    <span class="tag tag--pink">READY FOR MORE?</span>
-    <h3>Change the mood.</h3>
-    <p>Pick what should come next.<br>Tell us why it fits.</p>
-  </div>
-</div>
-
-<div class="success-line">A first attempt counts. Perfect isn’t the goal.</div>
-
-<div class="slide-footer"><span>TAKE TURNS: DJ · HEADPHONE LISTENER · OBSERVER</span><span>10 / 10</span></div>
-
-<!--
-TIME: 1 minute. Total elapsed: 10:00. Hands-on practice, if available, is separate from the ten-minute talk.
-
-Read the challenge, not every step. Reassure learners that getting a sound out and trying a transition is a win.
-
-Practice logistics are not yet confirmed: adapt group size, rotation length, and helper support to the actual room and number of controllers. Do not promise individual controller time until you know those numbers.
-
-If sharing a controller, offer rotating roles:
-- DJ: operates the controls.
-- Headphone listener: checks the next track when the equipment allows. Only one learner controls the deck at a time; do not share a single pair of headphones simultaneously.
-- Observer: follows the checklist and offers one kind, specific observation.
-
-With only two learners, combine listener and observer. Rotate roles so everyone who wants a turn can try. An adult should support younger learners rather than relying on older kids to teach them.
-
-For faster learners, ask them to select a next track and explain the energy/mood choice. Keep this a musical challenge, not extra technical vocabulary.
-
-If no practice time is available, use a volunteer or group-directed final demonstration and leave this slide as the take-away checklist.
--->
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWZ3M3dyNTF2dGp4ZmhpcDEzbTBzZDZvbzd6bDYwdXBzeWNkNTNldCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mDGL3G97HPIh3X7OXe/giphy.gif" alt="Animated GIF on the left" />
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWQzem9nc2MzZTVya2pvYnN0bjB3eWUxeGJyZ2FrOWNuZ2EydzZqZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f0AsTRFUf4L1I0NPrw/giphy.gif" alt="Animated GIF on the right" />
