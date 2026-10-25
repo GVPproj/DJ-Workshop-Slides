@@ -100,6 +100,12 @@
 .software-category:not(.software-category--free) .software-logo--byo { padding: 12px; }
 .software-category:not(.software-category--free) .software-logo--byo img { height: 48px; }
 .software-controller-tag { padding: 3px 9px; border-radius: 999px; background: var(--workshop-cyan); color: var(--workshop-bg); font-size: 11px; font-weight: 700; white-space: nowrap; }
+.music-choices { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.music-choices .software-logos { grid-template-columns: 1fr; grid-template-rows: 1fr; }
+.slidev-layout a.music-link, .slidev-layout a.music-link:hover { border-bottom: 0; text-decoration: none; }
+.music-link--free { background: var(--color-ink); color: var(--color-surface); }
+.music-link img { height: 125px; }
+.music-link:hover, .music-link:focus-visible { outline: 3px solid var(--workshop-cyan); outline-offset: 3px; }
 
 .wordmark-slide .wordmark {
   display: block;

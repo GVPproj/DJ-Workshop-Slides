@@ -3,7 +3,7 @@ theme: default
 title: Your First DJ Mix
 info: |
   A ten-minute introduction to DJing for ages 8–16.
-  Twelve slides, live demonstrations, and a first-transition challenge.
+  Thirteen slides, live demonstrations, and a first-transition challenge.
 author: DJ Workshop
 class: workshop-slide wordmark-slide
 transition: fade
@@ -87,7 +87,7 @@ title: Meet your decks.
 
 
 <div class="slide-footer"><span>First Glimpse</span>
-  <span>05 / 12</span></div>
+  <span>05 / 13</span></div>
 
 <!--
 TIME: 2 minutes. Total elapsed: 3:00.
@@ -121,7 +121,7 @@ title: Crossfade without beat matching.
 
 <DeckSetup mode="transition" />
 
-<div class="slide-footer"><span>NO BEAT MATCHING NEEDED</span><span>06 / 12</span></div>
+<div class="slide-footer"><span>NO BEAT MATCHING NEEDED</span><span>06 / 13</span></div>
 
 <!--
 DEMO: After introducing the decks, show a simple crossfade before explaining tempo. Play A to the room with the crossfader at A. Start B at a prepared, beat-light intro while A reaches a sparse outro, then move the crossfader toward B. Keep any overlap short so the beats do not clash. Do not use Sync or try to align the beats in this demonstration.
@@ -152,7 +152,7 @@ title: Find the beat.
   <!-- <div><span class="tag tag--pink">VOLUME</span><p>How loud the sound is.</p></div> -->
 </div>
 
-<div class="slide-footer"><span>TRY IT: TAP, NOD, OR COUNT ALONG</span><span>07 / 12</span></div>
+<div class="slide-footer"><span>TRY IT: TAP, NOD, OR COUNT ALONG</span><span>07 / 13</span></div>
 
 <!--
 TIME: 1 minute. Total elapsed: 4:00.
@@ -180,7 +180,7 @@ title: Listen before everyone else.
 
 <div class="listen-callout"><span class="tag">HEADPHONE CUE</span> Check the next track before you mix it in.</div>
 
-<div class="slide-footer"><span></span><span>08 / 12</span></div>
+<div class="slide-footer"><span></span><span>08 / 13</span></div>
 
 <!--
 TIME: 1 minute. Total elapsed: 5:00.
@@ -208,7 +208,7 @@ title: Crossfade from A to B.
 
 <DeckSetup mode="transition" show-beats />
 
-<div class="slide-footer"><span></span><span>09 / 12</span></div>
+<div class="slide-footer"><span></span><span>09 / 13</span></div>
 
 ---
 class: workshop-slide
@@ -228,7 +228,7 @@ title: Make your first transition.
 
 <div class="listen-callout"><span class="tag">USE YOUR EARS</span> Does the change sound smooth? Adjust and try again.</div>
 
-<div class="slide-footer"><span></span><span>10 / 12</span></div>
+<div class="slide-footer"><span></span><span>10 / 13</span></div>
 
 <!--
 TIME: 4 minutes. Total elapsed: 9:00.
@@ -282,4 +282,32 @@ title: DJ software options
   </section>
 </div>
 
-<div class="slide-footer"><span></span><span>12 / 12</span></div>
+<div class="slide-footer"><span></span><span>12 / 13</span></div>
+
+---
+class: workshop-slide software-slide music-slide
+title: Where to find music
+---
+
+# Where to find music
+
+<div class="software-choices music-choices">
+  <section class="software-category" aria-label="Free Music Archive">
+    <h2>Free music</h2>
+    <div class="software-logos">
+      <a class="software-logo music-link music-link--free" href="https://freemusicarchive.org/genre/House/" target="_blank" rel="noopener noreferrer">
+        <img src="/logos/fma.svg" alt="Free Music Archive logo" />
+      </a>
+    </div>
+  </section>
+  <section class="software-category" aria-label="Bandcamp">
+    <h2>Discover artists</h2>
+    <div class="software-logos">
+      <a class="software-logo music-link" href="https://bandcamp.com/" target="_blank" rel="noopener noreferrer">
+        <img src="/logos/bandcamp.svg" alt="Bandcamp logo" />
+      </a>
+    </div>
+  </section>
+</div>
+
+<div class="slide-footer"><span>Check each track’s licence before sharing a mix</span><span>13 / 13</span></div>
