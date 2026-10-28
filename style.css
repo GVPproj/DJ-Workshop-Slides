@@ -95,17 +95,36 @@
 .software-category--free .software-logo { background: var(--color-ink); color: var(--color-surface); }
 .software-logo img { display: block; max-width: 100%; width: 100%; height: 85px; object-fit: contain; }
 .software-category--free .software-logo img { height: 160px; }
-.software-logo figcaption { font-size: 16px; font-weight: 700; text-align: center; }
+.software-caption { font-size: 16px; font-weight: 700; text-align: center; }
 .software-logo--byo { gap: 6px; }
 .software-category:not(.software-category--free) .software-logo--byo { padding: 12px; }
 .software-category:not(.software-category--free) .software-logo--byo img { height: 48px; }
 .software-controller-tag { padding: 3px 9px; border-radius: 999px; background: var(--workshop-cyan); color: var(--workshop-bg); font-size: 11px; font-weight: 700; white-space: nowrap; }
 .music-choices { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .music-choices .software-logos { grid-template-columns: 1fr; grid-template-rows: 1fr; }
+.slidev-layout a.software-link, .slidev-layout a.software-link:hover,
 .slidev-layout a.music-link, .slidev-layout a.music-link:hover { border-bottom: 0; text-decoration: none; }
 .music-link--free { background: var(--color-ink); color: var(--color-surface); }
 .music-link img { height: 125px; }
+.software-link:hover, .software-link:focus-visible,
 .music-link:hover, .music-link:focus-visible { outline: 3px solid var(--workshop-cyan); outline-offset: 3px; }
+
+.title-toc {
+  position: absolute;
+  bottom: 48px;
+  left: 52px;
+  right: 52px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  font-size: 20px;
+  color: var(--workshop-cyan);
+}
+
+.title-toc a:hover, .title-toc a:focus-visible {
+  outline: 2px solid var(--workshop-cyan);
+  outline-offset: 6px;
+}
 
 .wordmark-slide .wordmark {
   display: block;
@@ -140,6 +159,18 @@
 .beat-row > div:first-child { background: var(--workshop-cyan); color: var(--workshop-bg); }
 .beat-row strong { font-size: 46px; line-height: 1.1; }
 .beat-row span { font-size: 12px; letter-spacing: 2px; margin-top: 6px; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .beat-row > div { animation: tap-count-beat 2s step-end infinite both; }
+  .beat-row > div:nth-child(2) { animation-delay: -1.5s; }
+  .beat-row > div:nth-child(3) { animation-delay: -1s; }
+  .beat-row > div:nth-child(4) { animation-delay: -0.5s; }
+}
+
+@keyframes tap-count-beat {
+  0%, 24.99% { background: var(--workshop-cyan); color: var(--workshop-bg); }
+  25%, 100% { background: var(--workshop-panel); color: var(--workshop-cyan); }
+}
 .concept-pair { display: flex; gap: 80px; }
 .concept-pair p { margin-top: 8px; font-size: 22px; }
 .deck-setup { display: grid; grid-template-columns: 1fr 0.9fr 1fr; gap: 15px; margin-top: 22px; }

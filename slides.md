@@ -3,7 +3,7 @@ theme: default
 title: Your First DJ Mix
 info: |
   A ten-minute introduction to DJing for ages 8–16.
-  Fourteen slides, live demonstrations, and a first-transition challenge.
+  Eleven slides, live demonstrations, and a first-transition challenge.
 author: DJ Workshop
 class: workshop-slide wordmark-slide
 transition: fade
@@ -17,6 +17,12 @@ drawings:
 ---
 
 <img class="wordmark" src="/afw-wordmark.svg" alt="A Friendly Wave" />
+
+<nav class="title-toc" aria-label="Table of contents">
+  <Link to="2">Tutorial</Link>
+  <Link to="9">Software</Link>
+  <Link to="10">Where to find Music</Link>
+</nav>
 
 <!--
 TIME: 1 minute. Total elapsed: 1:00.
@@ -42,40 +48,6 @@ Aim for curiosity rather than a polished-performance standard. Nobody has to dan
 
 ---
 class: workshop-slide photo-slide
-title: Vintage DJ console
----
-
-<img src="/dj-photo.jpg" alt="Two vintage turntables and a mixer on a DJ console" />
-
-<!--
-PHOTO: Visual interlude after the introduction; no extra time in the ten-minute talk.
--->
-
----
-class: workshop-slide photo-slide
-title: Modern DJ setup
----
-
-<img src="/cdj-3000x.jpg" alt="Two Pioneer DJ CDJ-3000X decks with a mixer between them" />
-
-<!--
-PHOTO: Modern DJ setup; no extra time in the ten-minute talk.
--->
-
----
-class: workshop-slide photo-pair-slide
-title: Home DJ setups
----
-
-<img src="/dj-pair-left.jpg" alt="Home DJ setup with controller, laptop, speakers, and headphones" />
-<img src="/dj-pair-right.jpg" alt="DJ controller and laptop with microphone on a table" />
-
-<!--
-PHOTO: Two home DJ setups side by side; no extra time in the ten-minute talk.
--->
-
----
-class: workshop-slide photo-slide
 title: Pioneer DJ DDJ-400 controller
 ---
 
@@ -94,7 +66,7 @@ title: Meet your decks.
 
 
 <div class="slide-footer"><span>First Glimpse</span>
-  <span>06 / 14</span></div>
+  <span>03 / 11</span></div>
 
 <!--
 TIME: 2 minutes. Total elapsed: 3:00.
@@ -128,7 +100,7 @@ title: Crossfade without beat matching.
 
 <DeckSetup mode="transition" />
 
-<div class="slide-footer"><span>NO BEAT MATCHING NEEDED</span><span>07 / 14</span></div>
+<div class="slide-footer"><span>NO BEAT MATCHING NEEDED</span><span>04 / 11</span></div>
 
 <!--
 DEMO: After introducing the decks, show a simple crossfade before explaining tempo. Play A to the room with the crossfader at A. Start B at a prepared, beat-light intro while A reaches a sparse outro, then move the crossfader toward B. Keep any overlap short so the beats do not clash. Do not use Sync or try to align the beats in this demonstration.
@@ -159,7 +131,7 @@ title: Find the beat.
   <!-- <div><span class="tag tag--pink">VOLUME</span><p>How loud the sound is.</p></div> -->
 </div>
 
-<div class="slide-footer"><span>TRY IT: TAP, NOD, OR COUNT ALONG</span><span>08 / 14</span></div>
+<div class="slide-footer"><span>TRY IT: TAP, NOD, OR COUNT ALONG</span><span>05 / 11</span></div>
 
 <!--
 TIME: 1 minute. Total elapsed: 4:00.
@@ -187,7 +159,7 @@ title: Listen before everyone else.
 
 <div class="listen-callout"><span class="tag">HEADPHONE CUE</span> Check the next track before you mix it in.</div>
 
-<div class="slide-footer"><span></span><span>09 / 14</span></div>
+<div class="slide-footer"><span></span><span>06 / 11</span></div>
 
 <!--
 TIME: 1 minute. Total elapsed: 5:00.
@@ -215,7 +187,7 @@ title: Crossfade from A to B.
 
 <DeckSetup mode="transition" show-beats />
 
-<div class="slide-footer"><span></span><span>10 / 14</span></div>
+<div class="slide-footer"><span></span><span>07 / 11</span></div>
 
 ---
 class: workshop-slide
@@ -235,7 +207,7 @@ title: Make your first transition.
 
 <div class="listen-callout"><span class="tag">USE YOUR EARS</span> Does the change sound smooth? Adjust and try again.</div>
 
-<div class="slide-footer"><span></span><span>11 / 14</span></div>
+<div class="slide-footer"><span></span><span>08 / 11</span></div>
 
 <!--
 TIME: 4 minutes. Total elapsed: 9:00.
@@ -257,14 +229,6 @@ Do not promise that Sync makes all tracks fit. Genre, rhythm, vocals, musical ke
 -->
 
 ---
-class: workshop-slide photo-pair-slide gif-pair-slide
-title: DJ workshop outro
----
-
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWZ3M3dyNTF2dGp4ZmhpcDEzbTBzZDZvbzd6bDYwdXBzeWNkNTNldCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mDGL3G97HPIh3X7OXe/giphy.gif" alt="Animated GIF on the left" />
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWQzem9nc2MzZTVya2pvYnN0bjB3eWUxeGJyZ2FrOWNuZ2EydzZqZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f0AsTRFUf4L1I0NPrw/giphy.gif" alt="Animated GIF on the right" />
-
----
 class: workshop-slide software-slide
 title: DJ software options
 ---
@@ -275,21 +239,21 @@ title: DJ software options
   <section class="software-category software-category--free" aria-label="Free DJ software">
     <h2>Free</h2>
     <div class="software-logos">
-      <figure class="software-logo software-logo--byo"><img src="/logos/mixxx.svg" alt="Mixxx logo" /><figcaption>Mixxx</figcaption><span class="software-controller-tag">BYO controller</span></figure>
+      <a class="software-logo software-logo--byo software-link" href="https://mixxx.org/" target="_blank" rel="noopener noreferrer"><img src="/logos/mixxx.svg" alt="Mixxx logo" /><span class="software-caption">Mixxx</span><span class="software-controller-tag">BYO controller</span></a>
     </div>
   </section>
   <section class="software-category" aria-label="Paid DJ software">
     <h2>Paid</h2>
     <div class="software-logos">
-      <figure class="software-logo software-logo--byo"><img src="/logos/djay.svg" alt="Algoriddim djay logo" /><figcaption>Algoriddim djay</figcaption><span class="software-controller-tag">BYO controller</span></figure>
-      <figure class="software-logo"><img src="/logos/serato.svg" alt="Serato logo" /></figure>
-      <figure class="software-logo"><img src="/logos/rekordbox.svg" alt="rekordbox logo" /></figure>
-      <figure class="software-logo"><img src="/logos/traktor.svg" alt="Traktor logo" /></figure>
+      <a class="software-logo software-logo--byo software-link" href="https://www.algoriddim.com/djay-pro" target="_blank" rel="noopener noreferrer"><img src="/logos/djay.svg" alt="Algoriddim djay logo" /><span class="software-caption">Algoriddim djay</span><span class="software-controller-tag">BYO controller</span></a>
+      <a class="software-logo software-link" href="https://serato.com/dj" target="_blank" rel="noopener noreferrer"><img src="/logos/serato.svg" alt="Serato logo" /></a>
+      <a class="software-logo software-link" href="https://rekordbox.com/" target="_blank" rel="noopener noreferrer"><img src="/logos/rekordbox.svg" alt="rekordbox logo" /></a>
+      <a class="software-logo software-link" href="https://www.native-instruments.com/en/products/traktor/dj-software/traktor-pro-4/" target="_blank" rel="noopener noreferrer"><img src="/logos/traktor.svg" alt="Traktor logo" /></a>
     </div>
   </section>
 </div>
 
-<div class="slide-footer"><span></span><span>13 / 14</span></div>
+<div class="slide-footer"><span></span><span>09 / 11</span></div>
 
 ---
 class: workshop-slide software-slide music-slide
@@ -317,4 +281,12 @@ title: Where to find music
   </section>
 </div>
 
-<div class="slide-footer"><span>Check each track’s licence before sharing a mix</span><span>14 / 14</span></div>
+<div class="slide-footer"><span>Check each track’s licence before sharing a mix</span><span>10 / 11</span></div>
+
+---
+class: workshop-slide photo-pair-slide gif-pair-slide
+title: DJ workshop outro
+---
+
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWZ3M3dyNTF2dGp4ZmhpcDEzbTBzZDZvbzd6bDYwdXBzeWNkNTNldCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mDGL3G97HPIh3X7OXe/giphy.gif" alt="Animated GIF on the left" />
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWQzem9nc2MzZTVya2pvYnN0bjB3eWUxeGJyZ2FrOWNuZ2EydzZqZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f0AsTRFUf4L1I0NPrw/giphy.gif" alt="Animated GIF on the right" />
